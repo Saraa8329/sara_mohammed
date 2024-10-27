@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>TP1: ex1</title>
+    <link rel="stylesheet" href="exoo1.css">
+    <script src="exo1.js"></script>
+</head>
+<body>
+    <h1>Exercice 1</h1>
+    <hr>
+    <div>
+        <p>Entrez le prix hors-taxe :</p>
+        <p><input id="pht" type="text" ></p>
+        <p>Entrez la TVA :</p>
+        <p><input id="tva" type="text" ></p>
+        <p>
+            <input type="button" value="Calculer" onclick="prixFinal();">
+            <input type="button" value="Réinitialiser" onclick="Effacer();">
+        </p>
+        <p id="resultat" style="visibility: hidden">Le prix final est <span id="cal" >0</span> DH .</p>
+    </div>
+</body>
+</html>
